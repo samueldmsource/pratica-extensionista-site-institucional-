@@ -1,4 +1,4 @@
-const projects=[
+        const projects=[
  {title:'Oficinas de Arte e Criatividade',category:'Arte e expressão',color:'orange',text:'Uma proposta de encontros para experimentar materiais, linguagens e formas de expressão. Projeto ilustrativo; formato e realização a confirmar.',audience:'Pessoas interessadas em experimentação artística',goal:'Ampliar oportunidades de expressão e criação coletiva.'},
  {title:'Cultura em Movimento',category:'Cultura',color:'blue',text:'Atividades demonstrativas que aproximam diferentes expressões culturais e a comunidade.',audience:'Comunidade em geral',goal:'Valorizar a diversidade de repertórios culturais.'},
  {title:'Educação e Cidadania',category:'Educação',color:'green',text:'Uma ideia de ações educativas e rodas de conversa sobre participação e direitos.',audience:'Jovens e adultos',goal:'Estimular a troca de conhecimentos e a participação cidadã.'},

@@ -61,6 +61,7 @@
 .project-track>.card{flex:0 0 clamp(290px,26vw,310px);height:510px;display:flex;flex-direction:column;scroll-snap-align:start;scroll-snap-stop:always}
 .project-track>.card .card-visual{flex:none}
 .project-track>.card .card-body{display:flex;flex:1;flex-direction:column}
+.project-track>.card h3{min-height:5.4em}
 .project-track>.card .text-link{margin-top:auto}
 .carousel-arrow{position:absolute;z-index:4;top:116px;left:-16px;width:48px;height:48px;display:grid;place-items:center;padding:0;border:2px solid var(--color-ink);border-radius:50%;background:var(--color-cream);color:var(--color-ink);box-shadow:3px 3px 0 var(--color-ink);cursor:pointer;transform:translateY(-50%)}
 .carousel-next{left:auto;right:-16px}

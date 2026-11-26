@@ -90,7 +90,7 @@
 .photo-star{top:2px;left:0;width:58px;height:58px}
 .photo-spark{right:-16px;bottom:-16px;width:42px;height:42px}
 .photo-heart{left:-16px;top:62%;width:34px;height:34px}
-.hero-photo-art .photo-badge{position:absolute;top:-8px;right:0;z-index:4;width:82px;height:82px;border-radius:50%;background:var(--color-cyan);display:grid;place-items:center;color:var(--color-ink);font:800 12px/1.1 var(--display);text-align:center;border:2px solid var(--color-ink);transform:rotate(7deg);box-shadow:3px 3px 0 var(--color-ink)}
+
 @media(max-width:1023px){.hero-grid{grid-template-columns:1fr;gap:20px}.hero-photo-art{width:min(100%,480px)}}
 @media(max-width:639px){.hero-grid{gap:5px}.hero-photo-art{width:min(88vw,480px);transform:none}.hero-photo-frame{inset:16px 22px 20px 16px;border-radius:26px;box-shadow:8px 8px 0 var(--color-pink),11px 11px 0 var(--color-ink)}.hero-photo{border-radius:20px}.photo-star{width:46px;height:46px;top:2px;left:0}.photo-spark{width:34px;height:34px;right:-10px;bottom:-10px}.photo-heart{width:28px;height:28px;left:-12px}}
 
@@ -149,7 +149,21 @@
 
 .card-media-link{cursor:pointer}.card-title-link{color:inherit;text-decoration:none;cursor:pointer}.card-title-link:hover{color:var(--orange)}.card-title-link:focus-visible{outline:3px solid var(--orange2);outline-offset:3px;border-radius:2px}
 
-.locations-section{background:var(--navy)}
+.locations-section{background:var(--paper);color:var(--ink)}
+.locations-section .section-head p{color:#62666c}
+.locations-section .unit-card{color:#34363a;background:#fff;border-color:#d8d3cb}
+.locations-section .unit-card:hover{border-color:#a10e55}
+.locations-section .unit-card.is-active{background:#f5e8ef;border-color:#a10e55;box-shadow:inset 4px 0 0 #a10e55}
+.locations-section .unit-name{color:#111}
+.locations-section #unit-map-link{color:#a10e55}
+.locations-section .unit-data-note{color:#62666c}
+.news-section{background:var(--navy);color:var(--white)}
+.news-section .card{background:#1b2c43;border-color:#ffffff30}
+.news-section .card-meta{color:var(--orange2)}
+.news-section .card-title-link{color:#fff}
+.news-section .card-title-link:hover{color:var(--orange2)}
+.news-section .section-head .eyebrow{color:var(--orange2)}
+.news-section .text-link{color:var(--orange2)}
 .units-layout{display:grid;grid-template-columns:minmax(260px,.85fr) minmax(0,1.15fr);gap:24px;align-items:stretch}
 .unit-list{display:grid;align-content:start;gap:12px}
 .unit-card{display:grid;gap:7px;width:100%;padding:19px 20px;text-align:left;color:#e7ebf1;background:#1b2c43;border:1px solid #ffffff30;border-radius:14px;cursor:pointer;line-height:1.5;transition:background .18s,border-color .18s,transform .18s}
